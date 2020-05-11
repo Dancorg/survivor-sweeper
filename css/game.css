@@ -25,7 +25,7 @@ body{text-align:center;}
 }
 
 .labels{
-	position:absolute;
+	/*position:absolute;*/
 	z-index:7;
 	border-radius:5px;
 	-moz-border-radius:5px;
@@ -36,6 +36,8 @@ body{text-align:center;}
 }
 
 #StartScreen{
+	left:0px;
+	top:0px;
 	background:#993344;
 	width:480px;
 	height:800px;
@@ -46,6 +48,7 @@ body{text-align:center;}
 	z-index:8;
 }
 #title{
+	left:0px;
 	width:480px;
 	top:100px;
 	position:absolute;
@@ -63,7 +66,6 @@ body{text-align:center;}
 	-moz-border-radius:10px;
 	-webkit-border-radius:10px;
 	z-index:9;
-	
 	line-height:100px;
 	text-align:center;
 	font-size:30px;
@@ -200,6 +202,7 @@ p{
 }
 #houses
 {	
+	left:0px;
 	top:40px;
 	position:absolute;
 	width:480px;
@@ -208,7 +211,7 @@ p{
 }
 .facade
 {
-	background: url(http://dl.dropbox.com/u/59330030/Survivor%20Sweeper/images/casa.png);
+	background: url(images/casa.png);
 	background-repeat: no-repeat;
 	background-color: #444444;
 	width:30px;
