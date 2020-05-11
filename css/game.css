@@ -1,0 +1,242 @@
+html{ background:#101010}
+
+body{text-align:center;}
+
+*{
+	font-family:Bangers,Impact, Charcoal, sans-serif;
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	user-select:none;
+}
+
+.centered{
+	display: -moz-box;
+	-moz-box-pack: center;
+	-moz-box-align: center;
+	display: -webkit-box;
+	-webkit-box-pack: center;
+	-webkit-box-align: center;
+}
+
+.buttons{
+	border:5px solid;
+	border-radius: 5px;
+	border-style: outset;	
+}
+
+.labels{
+	position:absolute;
+	z-index:7;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	line-height:0px;
+	text-align:center;
+	font-size:18px;
+}
+
+#StartScreen{
+	background:#993344;
+	width:480px;
+	height:800px;
+	position:absolute;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	z-index:8;
+}
+#title{
+	width:480px;
+	top:100px;
+	position:absolute;
+	text-align:center;
+	font-size:60px;
+}
+#StartButton{
+	background:#cc6688;
+	width:320px;
+	height:100px;
+	top:350px;
+	left:80px;
+	position:absolute;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	z-index:9;
+	
+	line-height:100px;
+	text-align:center;
+	font-size:30px;
+}
+
+#lowerBar{
+	background:#777777;
+	width:460px;
+	height:80px;
+	top:720px;
+	left:10px;
+	position:absolute;
+	z-index:6;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	
+}
+
+#topBar{
+	background:#777777;
+	width:460px;
+	height:40px;
+	top:0px;
+	left:10px;
+	position:absolute;
+	z-index:6;
+	border-radius:10px;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+}
+
+#score{
+	background:#999999;
+	width:210px;
+	height:30px;
+	top:10px;
+	left:20px;
+	position:absolute;
+	line-height:30px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#time{
+	background:#999999;
+	width:210px;
+	height:30px;
+	top:10px;
+	left:250px;
+	position:absolute;
+	line-height:30px;
+	border-radius:5px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+}
+#remainingSurvivors{
+	background:#999999;
+	width:420px;
+	height:25px;
+	top:5px;
+	left:20px;
+	position:relative;
+	line-height:25px;
+}
+
+#remainingRescuers{
+	background:#77bb77;
+	width:200px;
+	height:30px;
+	top:35px;
+	left:20px;
+	position:absolute;
+	z-index:7;
+	line-height:30px;
+}
+
+#buyRescuer{
+	width:200px;
+	height:10px;
+	top:35px;
+	left:230px;
+	position:absolute;
+	line-height:10px;
+	font-size:14px;
+}
+#buyTrooper{
+	width:200px;
+	height:10px;
+	top:55px;
+	left:230px;
+	position:absolute;
+	line-height:10px;
+	font-size:14px;
+}
+
+
+#popup{
+	width:300px;
+	height:100px;
+	top:350px;
+	left:90px;
+	visibility:hidden;
+	position:absolute;
+	z-index:8;
+	/*float:center;*/
+	line-height:100px;
+	text-align:center;
+	font-size:24px;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;
+	border-radius:20px;
+	
+	display: table;
+}
+
+p{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#game
+{
+	background:#666666;
+	left:20px;
+	top:20px;
+	width:480px;
+	height:800px;
+	position:absolute;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+#houses
+{	
+	top:40px;
+	position:absolute;
+	width:480px;
+	height:720px;/*le resto la barra de abajo*/
+	
+}
+.facade
+{
+	background: url(http://dl.dropbox.com/u/59330030/Survivor%20Sweeper/images/casa.png);
+	background-repeat: no-repeat;
+	background-color: #444444;
+	width:30px;
+	height:30px;
+	padding:1px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+	
+	-moz-user-select:none;
+	-webkit-user-select:none;
+	user-select:none;
+	text-align:center;
+	font-size:16px;
+}
+.house
+{
+	/*background:#99aa99;*/
+	width:40px;
+	height:40px;
+	margin:5px;
+	position:absolute;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;
+	border-radius:10px;
+}
+.facade:hover
+{
+	-webkit-box-shadow: 0 0 10px #aaa;
+	-moz-box-shadow: 0 0 10px #aaa;	
+}
